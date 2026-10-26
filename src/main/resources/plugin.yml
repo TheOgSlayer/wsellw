@@ -1,0 +1,30 @@
+name: SellPlugin
+version: 1.0.0
+main: dev.sellplugin.SellPlugin
+api-version: '1.20'
+description: Sell GUI and worth lookup driven by prices.yml
+depend: [Vault]
+softdepend: [ProtocolLib]
+commands:
+  sell:
+    description: Open the sell GUI (/sell reload reloads prices.yml)
+    usage: /sell
+    permission: sellplugin.sell
+  worth:
+    description: Check the worth of items
+    usage: /worth [item]
+    permission: sellplugin.worth
+  sellhistory:
+    description: View your sell history (/sellhistory stats = items sold)
+    usage: /sellhistory [stats]
+    aliases: [shistory]
+    permission: sellplugin.history
+permissions:
+  sellplugin.sell:
+    default: true
+  sellplugin.worth:
+    default: true
+  sellplugin.history:
+    default: true
+  sellplugin.reload:
+    default: op

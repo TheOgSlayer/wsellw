@@ -1,0 +1,11 @@
+# Show "Worth: $X" on every item tooltip (needs ProtocolLib).
+show-worth-lore: true
+
+# A shulker box holding items that have NO price in prices.yml:
+#   false = refuse to sell it (so you never lose those items by accident)
+#   true  = sell it anyway; unpriced items inside are worth $0 and are lost
+sell-shulkers-with-unsellable-items: false
+
+# How many individual sales are remembered per player in the history GUI.
+# (The "items sold" statistics are never trimmed.)
+history-max-entries: 500

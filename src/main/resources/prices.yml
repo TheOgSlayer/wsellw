@@ -1,0 +1,65 @@
+# Price of ONE item at 100% durability.
+# Damaged items sell for a share of this price: 50% durability = 50% of the price.
+# Use Bukkit material names (OAK_PLANKS, DIAMOND_SWORD, ...). Items not listed are unsellable.
+# A shulker box sells for its own price here PLUS the price of everything inside it.
+# Reload with /sell reload
+prices:
+  # Logs & planks
+  OAK_LOG: 4.0
+  SPRUCE_LOG: 4.0
+  BIRCH_LOG: 4.0
+  JUNGLE_LOG: 4.0
+  ACACIA_LOG: 4.0
+  DARK_OAK_LOG: 4.0
+  OAK_PLANKS: 1.0
+  SPRUCE_PLANKS: 1.0
+  BIRCH_PLANKS: 1.0
+  JUNGLE_PLANKS: 1.0
+  ACACIA_PLANKS: 1.0
+  DARK_OAK_PLANKS: 1.0
+  STICK: 0.5
+  # Stone & ores
+  COBBLESTONE: 1.0
+  STONE: 1.5
+  COAL: 8.0
+  IRON_INGOT: 25.0
+  GOLD_INGOT: 40.0
+  COPPER_INGOT: 10.0
+  REDSTONE: 6.0
+  LAPIS_LAZULI: 8.0
+  DIAMOND: 250.0
+  EMERALD: 150.0
+  NETHERITE_INGOT: 2500.0
+  # Tools & armor (scaled by durability)
+  DIAMOND_SWORD: 520.0
+  DIAMOND_PICKAXE: 780.0
+  IRON_SWORD: 55.0
+  IRON_PICKAXE: 80.0
+  DIAMOND_HELMET: 1250.0
+  DIAMOND_CHESTPLATE: 2000.0
+  DIAMOND_LEGGINGS: 1750.0
+  DIAMOND_BOOTS: 1000.0
+  # Food & farming
+  WHEAT: 2.0
+  BREAD: 5.0
+  CARROT: 2.0
+  POTATO: 2.0
+  COOKED_BEEF: 8.0
+  # Shulker boxes (box only; contents are added on top)
+  SHULKER_BOX: 100.0
+  WHITE_SHULKER_BOX: 100.0
+  ORANGE_SHULKER_BOX: 100.0
+  MAGENTA_SHULKER_BOX: 100.0
+  LIGHT_BLUE_SHULKER_BOX: 100.0
+  YELLOW_SHULKER_BOX: 100.0
+  LIME_SHULKER_BOX: 100.0
+  PINK_SHULKER_BOX: 100.0
+  GRAY_SHULKER_BOX: 100.0
+  LIGHT_GRAY_SHULKER_BOX: 100.0
+  CYAN_SHULKER_BOX: 100.0
+  PURPLE_SHULKER_BOX: 100.0
+  BLUE_SHULKER_BOX: 100.0
+  BROWN_SHULKER_BOX: 100.0
+  GREEN_SHULKER_BOX: 100.0
+  RED_SHULKER_BOX: 100.0
+  BLACK_SHULKER_BOX: 100.0
